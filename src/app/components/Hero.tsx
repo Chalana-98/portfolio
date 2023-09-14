@@ -72,7 +72,7 @@ function Hero() {
         <div className="sm:basis-1/2 mb-20">
 
         <div className='flex justify-start items-center  bg-gradient-to-b from-blue-800 w-40 h-20 rounded-xl pl-2 pr-2'>
-          <Image
+          <img
                 src="/android.png "
                 alt="cv"
                 width={50}
@@ -99,7 +99,7 @@ function Hero() {
             onHoverEnd={e => { }}
 
             className=' m-auto'>
-            <Image
+            <img
               src="/cvboynew.png "
               alt="cv"
               width={600}
@@ -110,7 +110,7 @@ function Hero() {
 
           <div className='flex justify-end items-end -mt-20 '>
           <div className='flex justify-start items-center  bg-gradient-to-b from-blue-800 w-40 h-20 rounded-xl pl-2 pr-2    '>
-          <Image
+          <img
                 src="/html.png "
                 alt="cv"
                 width={50}

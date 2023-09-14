@@ -77,21 +77,22 @@ export default function Home() {
             <p className='text-sm py-2 text-gray-800 leading-6'>As a skilled web developer, I specialize in creating dynamic and user-friendly websites that engage and captivate users. With expertise in front-end and back-end technologies, ensuring responsive designs and smooth functionality.</p>
             <div className=' flex justify-center gap-5 '>
 
-              <Image
+              <img
                 src="/angular.png "
                 alt="cv"
                 width={50}
                 height={50}
               />
 
-              <Image
+              <img
                 src="/reactjs.png "
                 alt="cv"
                 width={60}
                 height={50}
+                className=''
               />
 
-              <Image
+              <img
                 src="/nextjs.png "
                 alt="cv"
                 width={50}
