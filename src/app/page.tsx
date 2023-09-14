@@ -25,12 +25,11 @@ export default function Home() {
             onHoverStart={e => { }}
             onHoverEnd={e => { }}
             className='bg-opacity-70 backdrop-blur-lg bg-indigo-700 text-center shadow-sm p-5 rounded-xl my-10 shadow-slate-600'>
-            <Image
+            <img
               src="/appdev.png "
               alt="cv"
-              width={150}
-              height={150}
-              className=' inline'
+             
+              className=' inline w-28 h-28'
             />
             <h2 className='text-2xl font-bold '>Mobile App Developer</h2>
             <p className='text-sm py-2 text-gray-800 leading-6'>I am a Mobile App Developer proficient in creating cross-platform mobile applications using Flutter. I leverage the power of Android Studio to develop and optimize Android-specific features, ensuring a top-notch user experience. </p>
@@ -40,14 +39,14 @@ export default function Home() {
 
 
 
-              <Image
+              <img
                 src="/flutternew.png"
                 alt="cv"
                 width={50}
                 height={50}
               />
 
-<Image
+<img
                 src="/android.png "
                 alt="cv"
                 width={50}
@@ -66,12 +65,11 @@ export default function Home() {
             onHoverEnd={e => { }}
 
             className='bg-opacity-70 backdrop-blur-lg bg-indigo-700 text-center shadow-sm p-5 rounded-xl my-10 shadow-slate-600'>
-            <Image
+            <img
               src="/developer.png "
               alt="cv"
-              width={150}
-              height={150}
-              className=' inline'
+             
+              className=' inline w-28 h-28'
             />
             <h2 className='text-2xl font-bold '>Web Developer</h2>
             <p className='text-sm py-2 text-gray-800 leading-6'>As a skilled web developer, I specialize in creating dynamic and user-friendly websites that engage and captivate users. With expertise in front-end and back-end technologies, ensuring responsive designs and smooth functionality.</p>
@@ -114,9 +112,8 @@ export default function Home() {
             <img
               src="/uiux-01.png "
               alt="cv"
-              width={200}
-              height={240}
-              className=' inline'
+            
+              className=' inline w-40 h-28'
             />
             <h2 className='text-2xl font-bold '>UI/UX Developer</h2>
             <p className='text-sm py-2 text-gray-800 leading-6'>I am a skilled UI/UX Developer with a passion for creating visually stunning and user-friendly digital experiences. My expertise lies in using industry-standard design tools such as Figma, Photoshop, and Illustrator.</p>
@@ -126,16 +123,16 @@ export default function Home() {
               <img
                 src="/figma.png "
                 alt="cv"
-               className='w-10 h-10'
+               className=' w-14 h-14'
               />
 
             
-              <img src="/illust.png" className='w-10 h-10' alt="" />
+              <img src="/illust.png" className='w-14 h-14' alt="" />
 
               <img
                 src="/photoshop.png "
                 alt="cv"
-                className='w-10 h-10'
+                className='w-14 h-14'
               />
 
 
