@@ -110,7 +110,7 @@ export default function Home() {
             onHoverEnd={e => { }}
 
             className='bg-opacity-70 backdrop-blur-lg bg-indigo-700 text-center shadow-sm p-5 rounded-xl my-10 shadow-slate-600'>
-            <Image
+            <img
               src="/uiux-01.png "
               alt="cv"
               width={200}
@@ -131,11 +131,10 @@ export default function Home() {
             
               <img src="/illust.png" className='w-10 h-10' alt="" />
 
-              <Image
+              <img
                 src="/photoshop.png "
                 alt="cv"
-                width={50}
-                height={50}
+                className='w-10 h-10'
               />
 
 
