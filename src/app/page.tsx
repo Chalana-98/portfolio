@@ -36,17 +36,19 @@ export default function Home() {
             <p className='text-sm py-2 text-gray-800 leading-6'>I am a Mobile App Developer proficient in creating cross-platform mobile applications using Flutter. I leverage the power of Android Studio to develop and optimize Android-specific features, ensuring a top-notch user experience. </p>
             <div className=' flex justify-center gap-5 '>
 
-              <Image
-                src="/android.png "
-                alt="cv"
-                width={50}
-                height={50}
-              />
+             
 
 
 
               <Image
                 src="/flutternew.png"
+                alt="cv"
+                width={50}
+                height={50}
+              />
+
+<Image
+                src="/android.png "
                 alt="cv"
                 width={50}
                 height={50}
