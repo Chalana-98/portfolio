@@ -122,20 +122,14 @@ export default function Home() {
 
             <div className=' flex justify-center gap-5 '>
 
-              <Image
+              <img
                 src="/figma.png "
                 alt="cv"
-                width={50}
-                height={50}
+               className='w-10 h-10'
               />
 
-              <Image
-                src="/illust.png "
-                alt="cv"
-                width={50}
-                height={50}
-              />
-              <img src="/illust.png" className='w-50 h-50' alt="" />
+            
+              <img src="/illust.png" className='w-10 h-10' alt="" />
 
               <Image
                 src="/photoshop.png "
