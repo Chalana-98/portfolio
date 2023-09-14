@@ -135,6 +135,7 @@ export default function Home() {
                 width={50}
                 height={50}
               />
+              <img src="/illust.png" className='w-50 h-50' alt="" />
 
               <Image
                 src="/photoshop.png "
