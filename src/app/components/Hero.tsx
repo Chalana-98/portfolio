@@ -24,7 +24,7 @@ function Hero() {
 
 
           <li>
-            <a href="https://drive.google.com/file/d/1T2bkdcrqLQcrXAZIJRFwbo4iFNdxfeE5/view?usp=sharing"
+            <a href="https://drive.google.com/file/d/1X5pZn4mruQuNPYcDUSaU9f8qp8ZMAgzd/view?usp=sharing"
               download={'Chalana CV'}
 
             >
