@@ -173,27 +173,32 @@ export default function Home() {
             </motion.div>
 
           </div>
+
           <div className='basis-1/4 flex-1'>
 
-            <motion.div 
-             whileHover={{ scale: 1.2 }}
-             onHoverStart={e => { }}
-             onHoverEnd={e => { }}
-            
-            className="max-w-lg bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-              <a href="#">
-                <img className="p-10 rounded-t-lg" src="MyPort.png" alt="" />
-              </a>
-              <div className="p-5">
-                <a href="#">
-                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Personal Portfolio</h5>
-                </a>
-                <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Vite | ReactJS | Individual</p>
-                <p className=" text-sm mb-3  text-gray-200 dark:text-gray-200">A Responsive Web Application for a personal portfolio for Me. </p>
-              </div>
-            </motion.div>
+<motion.div 
 
-          </div>
+whileHover={{ scale: 1.2 }}
+onHoverStart={e => { }}
+onHoverEnd={e => { }}
+
+
+className="max-w-lg bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+  <a href="#">
+    <img className=" p-10 rounded-t-lg" src="/port.png" alt="" />
+  </a>
+  <div className="p-5">
+    <a href="#">
+      <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Portfolio</h5>
+    </a>
+    <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">NextJS | Tailwind CSS | Individual</p>
+    <p className=" text-sm mb-3  text-gray-200 dark:text-gray-200">A Responsive Web Application for a personal portfolio Me.</p>
+  </div>
+</motion.div>
+
+</div>
+
+          
           <div className='basis-1/4 flex-1'>
 
             <motion.div
@@ -262,26 +267,25 @@ export default function Home() {
           <div className='basis-1/4 flex-1'>
 
             <motion.div 
-            
-            whileHover={{ scale: 1.2 }}
-            onHoverStart={e => { }}
-            onHoverEnd={e => { }}
-            
+             whileHover={{ scale: 1.2 }}
+             onHoverStart={e => { }}
+             onHoverEnd={e => { }}
             
             className="max-w-lg bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
               <a href="#">
-                <img className=" p-10 rounded-t-lg" src="/port.png" alt="" />
+                <img className="p-10 rounded-t-lg" src="MyPort.png" alt="" />
               </a>
               <div className="p-5">
                 <a href="#">
-                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Portfolio</h5>
+                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Personal Portfolio</h5>
                 </a>
-                <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">NextJS | Tailwind CSS | Individual</p>
-                <p className=" text-sm mb-3  text-gray-200 dark:text-gray-200">A Responsive Web Application for a personal portfolio Me.</p>
+                <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Vite | ReactJS | Individual</p>
+                <p className=" text-sm mb-3  text-gray-200 dark:text-gray-200">A Responsive Web Application for a personal portfolio for Me. </p>
               </div>
             </motion.div>
 
           </div>
+          
 
         </div>
 
