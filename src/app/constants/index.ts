@@ -19,7 +19,7 @@ import My from "../../../public/MyPort.png"
     {
       icon: RxCrop,
       title: "Medi Care" ,
-      Subtitle: "Angular | ASP .NET | Group | Ongoing",
+      Subtitle: "Angular | ASP .NET | Group",
       content: "Medicare is a Centralized Patient Details System. It is a responsive web-based application",
       backgroundImage: Med,
     },

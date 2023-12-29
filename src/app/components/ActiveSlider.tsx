@@ -21,7 +21,7 @@ const ActiveSlider = () => {
         },
         1024: {
           slidesPerView: 2,
-          spaceBetween: 25,
+          spaceBetween: 15,
         },
       }}
       freeMode={true}
@@ -33,7 +33,7 @@ const ActiveSlider = () => {
     >
       {ServiceData.map((item) => (
         <SwiperSlide key={item.title}>
-          <div className="basis-1/3 flex-1 my-10 mx-3">
+          <div className="basis-1/2 flex-1 my-10 mx-3">
             <motion.div 
              whileHover={{ scale: 1.1 }}
              onHoverStart={(e) => {}}
