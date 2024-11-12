@@ -24,7 +24,7 @@ function Hero() {
 
 
           <li>
-            <a href="https://drive.google.com/file/d/1ralAGCJC0-0Xfb4zd5rAVOsVOvpkrKr4/view?usp=sharing"
+            <a href="https://drive.google.com/file/d/1Q13hgVR0essG4vWY1jVOM4I4SSSJmGKj/view?usp=drive_link"
               download={'Chalana CV'}
 
             >
@@ -52,10 +52,12 @@ function Hero() {
             />
           </h2>
          
-          <p className='text-sm py-10 text-gray-600 leading-6 md:text-xl'>I am Undergraduate at Sabaragamuwa University of Sri Lanka and am currently pursing a B.Sc (Hons) Computing & Information Systems Degree. I am a fast learner who adapts quickly to change and
-            eager to learn new methods and technologies, and work
-            as an effective team member. Intend to work smart for
-            the advancement of any project that I'm working on.</p>
+          <p className='text-sm py-10 text-gray-600 leading-6 md:text-xl'>I am a final-year student at Sabaragamuwa University of Sri Lanka, with 6 months of hands-on 
+            experience as an Intern Full Stack Software Engineer at Expernetic Pvt Ltd. During my internship,
+             I gained experience in both frontend and backend development, working with technologies like
+              React/TypeScript, Next.js, ASP.NET Core with Dapper, Azure DevOps practices, and MSSQL. I am a fast learner, adaptable to new technologies and methods, 
+              eager to continue growing my skills, and committed to working effectively as part of a team. My goal is to contribute smart, 
+              innovative solutions to any project I am involved in.</p>
           {/* social */}
           <div className='text-5xl flex justify-center gap-16 text-gray-700'>
             <a href="https://github.com/Chalana-98">

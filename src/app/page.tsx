@@ -70,6 +70,8 @@ export default function Home() {
             </p>
             <div className=" flex justify-center gap-5 ">
               <img src="/angular.png " alt="cv" width={50} height={50} />
+              <img src="/NET_logo.png " alt="cv" width={50} height={50} />
+            
 
               <img
                 src="/reactjs.png "
@@ -80,6 +82,7 @@ export default function Home() {
               />
 
               <img src="/nextjs.png " alt="cv" width={50} height={50} />
+              <img src="/sql.png " alt="cv" width={50} height={50} />
             </div>
           </motion.div>
 
@@ -289,7 +292,7 @@ export default function Home() {
             </h3>
             <p className="opacity-40">Designed & Built by Chalana Shehara</p>
             <p className="opacity-40">
-              Copyright @ 2023 developByChalana Inc. All rights reserved.
+              Copyright @ 2024 developByChalana Inc. All rights reserved.
             </p>
           </div>
           <div>
