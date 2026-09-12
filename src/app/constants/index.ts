@@ -218,10 +218,10 @@ export const EducationList: EducationItem[] = [
   {
     degree: "B.Sc (Hons) in Computing & Information Systems",
     institution: "Sabaragamuwa University of Sri Lanka",
-    period: "2020 (October) - 2025 (May)",
+    period: "2020 - 2025",
     location: "Belihuloya, Sri Lanka",
     details:
-      "Successfully completed all academic requirements in the Department of Computing and Information Systems, Faculty of Computing. Focused on Enterprise Software Engineering, Distributed Systems, Cloud Computing, and Machine Learning.",
+      "Graduate from the Faculty of Computing, Sabaragamuwa University of Sri Lanka (Department of Computing and Information Systems). Specialized in Enterprise Software Engineering, Distributed Systems, Cloud Architecture, and Machine Learning.",
   },
   {
     degree: "Primary & Secondary Education",

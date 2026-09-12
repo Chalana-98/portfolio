@@ -52,8 +52,8 @@ export default function EducationCertifications() {
                   <FiBookOpen />
                 </div>
                 <div>
-                  <span className="font-mono text-xs text-violet-400 font-semibold tracking-wider">
-                    BACHELOR OF SCIENCE (HONS)
+                  <span className="font-mono text-xs text-violet-400 font-semibold tracking-wider uppercase">
+                    BACHELOR OF SCIENCE (HONS) • GRADUATE
                   </span>
                   <div className="font-mono text-[11px] text-slate-500">{degree.period}</div>
                 </div>
@@ -63,12 +63,13 @@ export default function EducationCertifications() {
                 {degree.degree}
               </h3>
               <p className="text-base font-semibold text-violet-300 mb-4">
-                {degree.institution} • {degree.location}
+                Faculty of Computing • {degree.institution}
               </p>
               <p className="text-sm text-slate-400 leading-relaxed">
                 {degree.details}
               </p>
             </div>
+
 
             <div className="mt-8 pt-6 border-t border-slate-800/80 flex flex-wrap gap-2">
               <span className="font-mono text-xs px-3 py-1 rounded bg-[#11142c] border border-violet-500/20 text-slate-300">
