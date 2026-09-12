@@ -1,15 +1,12 @@
 "use client";
 
-import React, { useState } from "react";
+import React from "react";
 import { motion } from "framer-motion";
-import { FiArrowRight, FiDownload, FiCheckCircle, FiAlertCircle } from "react-icons/fi";
+import { FiArrowRight, FiDownload } from "react-icons/fi";
 import { PersonalData } from "../constants";
+import ChaosSystemSlider from "./ChaosSystemSlider";
 
 export default function Hero() {
-  const [sliderValue, setSliderValue] = useState<number>(65);
-
-  const isSystemMode = sliderValue >= 50;
-
   return (
     <section id="hero" className="relative min-h-screen pt-32 pb-20 md:pt-40 md:pb-28 flex flex-col justify-between overflow-hidden">
       <div className="max-w-6xl mx-auto px-6 sm:px-8 w-full z-10">
@@ -63,76 +60,10 @@ export default function Hero() {
             initial={{ opacity: 0, scale: 0.96 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.6, delay: 0.35 }}
-            className="glass-panel p-5 sm:p-6 rounded-2xl mb-10 max-w-2xl border border-violet-500/25 bg-[#090b17]/90 shadow-2xl relative overflow-hidden"
           >
-            {/* Top Labels */}
-            <div className="flex items-center justify-between font-mono text-xs sm:text-sm tracking-wider uppercase font-semibold mb-3">
-              <span className={`transition-colors duration-300 ${!isSystemMode ? "text-rose-400 font-bold" : "text-slate-500"}`}>
-                BEFORE: CHAOS
-              </span>
-              <span className={`transition-colors duration-300 ${isSystemMode ? "text-violet-400 font-bold" : "text-slate-500"}`}>
-                AFTER: SYSTEM
-              </span>
-            </div>
-
-            {/* Slider Track */}
-            <div className="relative flex items-center my-4 group">
-              <input
-                type="range"
-                min="0"
-                max="100"
-                value={sliderValue}
-                onChange={(e) => setSliderValue(Number(e.target.value))}
-                className="w-full h-2 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-violet-500 focus:outline-none focus:ring-2 focus:ring-violet-400/50"
-                style={{
-                  background: `linear-gradient(to right, #e11d48 0%, #7c3aed ${sliderValue}%, #1e2238 ${sliderValue}%, #1e2238 100%)`,
-                }}
-              />
-            </div>
-
-            {/* Caption */}
-            <p className="font-mono text-xs text-slate-400 mb-3 flex items-center justify-between">
-              <span>Drag it. Watch scattered work become an automated system.</span>
-              <span className="text-violet-400 font-semibold">{sliderValue}%</span>
-            </p>
-
-            {/* Dynamic Comparison Card Preview */}
-            <div className="mt-4 pt-4 border-t border-slate-800/80 grid grid-cols-1 sm:grid-cols-2 gap-3">
-              {/* State Left: Chaos */}
-              <div
-                className={`p-3 rounded-xl border transition-all duration-300 text-xs font-mono flex items-start gap-2.5 ${
-                  sliderValue < 50
-                    ? "bg-rose-950/40 border-rose-500/40 text-rose-200"
-                    : "bg-slate-900/40 border-slate-800/60 text-slate-500 opacity-60"
-                }`}
-              >
-                <FiAlertCircle className={`w-4 h-4 mt-0.5 flex-shrink-0 ${sliderValue < 50 ? "text-rose-400" : "text-slate-600"}`} />
-                <div>
-                  <div className="font-bold mb-1">Scattered Operations</div>
-                  <p className="text-[11px] leading-relaxed">
-                    Manual data reconciliations, fragile scripts, unmonitored silos, and silent failure points.
-                  </p>
-                </div>
-              </div>
-
-              {/* State Right: System */}
-              <div
-                className={`p-3 rounded-xl border transition-all duration-300 text-xs font-mono flex items-start gap-2.5 ${
-                  sliderValue >= 50
-                    ? "bg-violet-950/40 border-violet-500/50 text-violet-200 shadow-glow-sm"
-                    : "bg-slate-900/40 border-slate-800/60 text-slate-500 opacity-60"
-                }`}
-              >
-                <FiCheckCircle className={`w-4 h-4 mt-0.5 flex-shrink-0 ${sliderValue >= 50 ? "text-violet-400" : "text-slate-600"}`} />
-                <div>
-                  <div className="font-bold mb-1">Engineered Architecture</div>
-                  <p className="text-[11px] leading-relaxed">
-                    Clean Architecture .NET APIs, Synapse pipelines, LangChain automation & verified CI/CD.
-                  </p>
-                </div>
-              </div>
-            </div>
+            <ChaosSystemSlider />
           </motion.div>
+
 
           {/* Action Buttons & Micro-Copy */}
           <motion.div
