@@ -91,20 +91,43 @@ export const Experiences: ExperienceItem[] = [
 
 export const ProjectsData: ProjectItem[] = [
   {
+    title: "HireLens AI",
+    subtitle: "Semantic Recruitment Engine • Vector Search & OpenAI",
+    category: "AI & ML",
+    featured: true,
+    content:
+      "A high-performance semantic recruitment engine that leverages Vector Search and OpenAI embeddings to find the best candidates. It streamlines the hiring process with features like batch resume processing, bias-free screening options, and AI-generated candidate insights including match scorecards and tailored interview questions.",
+    tech: [".NET 8", "Next.js", "MongoDB", "OpenAI", "Vector Search", "TypeScript"],
+    image: "/hirelens.jpg",
+    github: "https://github.com/Chalana-98/Hirelense.Web",
+  },
+  {
+    title: "ConstructionTracker",
+    subtitle: "Enterprise Project Management & Resource Tracking ERP",
+    category: "Full Stack",
+    featured: true,
+    content:
+      "A comprehensive, responsive web application for managing construction projects. It streamlines project tracking, resource allocation, and daily logging through an intuitive, role-based dashboard.",
+    tech: ["React", "ASP.NET Core", "TypeScript", "Material UI", "Next.js", "Tailwind CSS"],
+    image: "/construction.jpg",
+    github: "https://github.com/Chalana-98/ConstructionTracker.Landing",
+    demo: "https://construction-tracker-landing.vercel.app",
+  },
+  {
     title: "Sinhala Songs Classifier",
     subtitle: "Final Year Research Project • Machine Learning",
     category: "AI & ML",
     featured: true,
     content:
-      "Final Year Research Project on automated Sinhala song classification. Employs scikit-learn library for ML modeling (RandomForestClassifier, evaluation metrics). Data processing handled with pandas & NumPy; feature visualization conducted with Matplotlib & Seaborn.",
-    tech: ["Python", "scikit-learn", "RandomForest", "Pandas", "NumPy", "Matplotlib", "Seaborn"],
+      "This is my Final Year Research Project about Sinhala Songs Classification. Employing the scikit-learn library for machine learning tasks, including classification algorithms and model evaluation techniques. Data handling is performed with pandas and NumPy, while Matplotlib and Seaborn are used for data visualization.",
+    tech: ["Python", "scikit-learn", "RandomForestClassifier", "Pandas", "NumPy", "Matplotlib", "Seaborn"],
     github: "https://github.com/Chalana-98",
   },
   {
     title: "Medi Care",
     subtitle: "Centralized Patient Details System",
     category: "Full Stack",
-    featured: true,
+    featured: false,
     content:
       "Centralized, responsive healthcare management web application for patient records, clinical history tracking, and hospital workflow automation. Built using Angular frontend and ASP.NET Core backend with Clean Architecture.",
     tech: ["Angular", "ASP.NET Core", "SQL Server", "C#", "Clean Architecture"],
@@ -115,7 +138,7 @@ export const ProjectsData: ProjectItem[] = [
     title: "Personal Portfolio v2",
     subtitle: "Modern Next.js 13 • Glassmorphic Motion UI",
     category: "Mobile & Web",
-    featured: true,
+    featured: false,
     content:
       "State-of-the-art developer portfolio featuring dark glassmorphism, Framer Motion interactive cards, responsive layouts, dynamic filtering, and optimized typography.",
     tech: ["Next.js 13", "TypeScript", "Tailwind CSS", "Framer Motion", "React Icons"],
@@ -123,14 +146,14 @@ export const ProjectsData: ProjectItem[] = [
     github: "https://github.com/Chalana-98/portfolio",
   },
   {
-    title: "Tiny Care",
-    subtitle: "Pediatric Wellness Mobile Application",
+    title: "Sri Go",
+    subtitle: "Island Travel Guide & Discovery App",
     category: "Mobile & Web",
     featured: false,
     content:
-      "Comprehensive mobile application for infant healthcare monitoring, immunization tracking, and parental guidance with modern UI.",
-    tech: ["Flutter", "Dart", "Laravel API", "MySQL"],
-    image: "/Tiny.png",
+      "Comprehensive travel assistant application featuring location-based discovery, Google Maps integration, and real-time cloud data sync.",
+    tech: ["Flutter", "Firebase", "Google Maps API", "Cloud Firestore"],
+    image: "/Sripng.png",
     github: "https://github.com/Chalana-98",
   },
   {
@@ -145,14 +168,14 @@ export const ProjectsData: ProjectItem[] = [
     github: "https://github.com/Chalana-98",
   },
   {
-    title: "Sri Go",
-    subtitle: "Island Travel Guide & Discovery App",
+    title: "Tiny Care",
+    subtitle: "Pediatric Wellness Mobile Application",
     category: "Mobile & Web",
     featured: false,
     content:
-      "Comprehensive travel assistant application featuring location-based discovery, Google Maps integration, and real-time cloud data sync.",
-    tech: ["Flutter", "Firebase", "Google Maps API", "Cloud Firestore"],
-    image: "/Sripng.png",
+      "Comprehensive mobile application for infant healthcare monitoring, immunization tracking, and parental guidance with modern UI.",
+    tech: ["Flutter", "Dart", "Laravel API", "MySQL"],
+    image: "/Tiny.png",
     github: "https://github.com/Chalana-98",
   },
 ];
